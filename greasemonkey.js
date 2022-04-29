@@ -1,6 +1,7 @@
 // ==UserScript==
-// @grant          GM_addStyle
+// @name Underscores Removed Boxes
 // @match https://ogu.gg/*
+// @include https://ogu.gg/*
 // ==/UserScript==
 
 function addGlobalStyle(css) {
@@ -14,7 +15,6 @@ function addGlobalStyle(css) {
 }
 
 
-console.log("hello");
 document.body.innerHTML = document.body.innerHTML.replace(/border: 1px solid #444;/g, '');
 addGlobalStyle('.index_stats_item { border:none; !important }');
 addGlobalStyle('.ilast { border:none; !important }');
