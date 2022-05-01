@@ -15,6 +15,7 @@ function addGlobalStyle(css) {
     head.appendChild(style);
 }
 
+//Main Page
 $("#cat_1 > table").css("border", "none");
 $("#cat_11 > table").css("border", "none");
 $("#cat_18 > table").css("border", "none");
@@ -25,16 +26,19 @@ $("#cat_40 > table").css("border", "none");
 $(".sidebarstats").css("border", "none");
 $(".table-rounded").css("border", "none");
 
+//Profile
+$(".index_stats_item").css("border", "none");
+$(".ilast").css("border", "none");
+$(".wrapped").css("border", "none");
+$(".statusblock").css("border", "none");
+$(".user-service--member-profile").css("border", "none");
+
+//Misc Fixes
 $(".post_body").css("font-size", "14px"); //Text was made bigger, reduced down to normal size
 $(".smalltext").css("font-size", "10px"); //Replaces Small Text
 $(".mycode_size").css("font-size", "14px"); //Replaced overriden medium/large text
 $(".footer-nav h3").css("font-size", "14px"); //Replaced footer text size
 $(".post_body").css("padding", "10px 0"); //Fixed spacing on threads
 
-addGlobalStyle('.index_stats_item { border:none; !important }');
-addGlobalStyle('.ilast { border:none; !important }');
-addGlobalStyle('.wrapped { border:none; !important }');
-addGlobalStyle('.statusblock { border:none; !important }');
-addGlobalStyle('.user-service--member-profile { border:none; !important }');
 
 //document.body.innerHTML = document.body.innerHTML.replace(/border: 1px solid #444;/g, ''); //If you have other boxes shown, unquote this
