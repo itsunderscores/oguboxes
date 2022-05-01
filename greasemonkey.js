@@ -25,11 +25,16 @@ $("#cat_40 > table").css("border", "none");
 $(".sidebarstats").css("border", "none");
 $(".table-rounded").css("border", "none");
 
-//If you have other boxes shown, use this
-//document.body.innerHTML = document.body.innerHTML.replace(/border: 1px solid #444;/g, '');
+$(".post_body").css("font-size", "14px"); //Text was made bigger, reduced down to normal size
+$(".smalltext").css("font-size", "10px"); //Replaces Small Text
+$(".mycode_size").css("font-size", "14px"); //Replaced overriden medium/large text
+$(".footer-nav h3").css("font-size", "14px"); //Replaced footer text size
+$(".post_body").css("padding", "10px 0"); //Fixed spacing on threads
 
 addGlobalStyle('.index_stats_item { border:none; !important }');
 addGlobalStyle('.ilast { border:none; !important }');
 addGlobalStyle('.wrapped { border:none; !important }');
 addGlobalStyle('.statusblock { border:none; !important }');
 addGlobalStyle('.user-service--member-profile { border:none; !important }');
+
+//document.body.innerHTML = document.body.innerHTML.replace(/border: 1px solid #444;/g, ''); //If you have other boxes shown, unquote this
