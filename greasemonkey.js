@@ -31,6 +31,7 @@ $(".table-rounded").css("border", "none");
 
 //Profile
 $(".index_stats_item").css("border", "none");
+$(".ifirst").css("border", "none");
 $(".ilast").css("border", "none");
 $(".wrapped").css("border", "none");
 $(".statusblock").css("border", "none");
