@@ -16,7 +16,7 @@ function addGlobalStyle(css) {
 }
 
 //document.body.innerHTML = document.body.innerHTML.replace(/border: 1px solid #444;/g, ''); //If you have other boxes shown, unquote this
-document.body.innerHTML = document.body.innerHTML.replace(/border-radius: 4px;/g, 'border-radius: 50%;'); //Fixes Profile Pictures
+//document.body.innerHTML = document.body.innerHTML.replace(/border-radius: 4px;/g, 'border-radius: 50%;'); //Fixes Profile Pictures
 
 //Home Page
 $("#cat_1 > table").css("border", "none");
