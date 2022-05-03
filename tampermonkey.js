@@ -18,7 +18,7 @@ function GM_addStyle(css) {
 }
 
 $(document).ready(function() {
-    document.body.innerHTML = document.body.innerHTML.replace(/border-radius: 4px;/g, 'border-radius: 50%;'); //Fixes Profile Pictures
+    //document.body.innerHTML = document.body.innerHTML.replace(/border-radius: 4px;/g, 'border-radius: 50%;'); //Fixes Profile Pictures
 
     $("#cat_1 > table").css("border", "none");
     $("#cat_11 > table").css("border", "none");
